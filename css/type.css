@@ -1,0 +1,169 @@
+/*------------------------------------*\
+ carga de fuentes tipográficas
+\*------------------------------------*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Light'),
+    url(../fonts/Montserrat-Light.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Regular'),
+    url(../fonts/Montserrat-Regular.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat Bold'),
+    url(../fonts/Montserrat-Bold.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GMX';
+  src: local('GMX Bold'),
+    url(../fonts/Montserrat-Bold.ttf) format('otf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+
+
+/*------------------------------------*\
+ declaración de variables y tamaños 
+\*------------------------------------*/
+
+:root {
+  /* type-tamaño-base */
+  --text-base-size: 62.5%;
+  --color-text-heading: #4D4D4D;
+  --color-text: #4D4D4D;
+  --c-brand-tenue: #F3F4F6;
+  --c-brand: #0C1B4D;
+
+  /* type-escala */
+
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-md: 1.6rem;
+  --text-lg: 2rem;
+  --text-xl: 2.4rem;
+  --text-xxl: 3.2rem;
+  --text-xxxl: 4.8rem;
+
+  /* type-line-height */
+  --heading-line-height: 1.1;
+  --body-line-height: 1.5;
+
+  /* spacing-escala */
+  --space-unit: 16px;
+  --space-xxs:  calc(0.25 * var(--space-unit));   /*  4px   */
+  --space-xs:   calc(0.5 * var(--space-unit));    /*  8px   */
+  --space-sm:   calc(0.75 * var(--space-unit));   /*  12px  */
+  --space-md:   calc(1 * var(--space-unit));      /*  16px  */
+  --space-lg:   calc(1.5 * var(--space-unit));    /*  24px  */
+  --space-xl:   calc(2 * var(--space-unit));      /*  32px  */
+  --space-xxl:  calc(3 * var(--space-unit));      /*  48px  */
+  --space-xxxl: calc(4 * var(--space-unit));      /*  64px  */
+}
+
+
+/*@media screen and (min-width: 992px) {
+  :root {
+    --text-base-size: 80%;
+  }
+}
+
+
+*/
+/*------------------------------------*\
+ estilos tipográficos generales de elementos html
+\*------------------------------------*/
+
+/* html {
+  font-size: var(--text-base-size);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: var(--body-line-height);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+form legend {
+    color: var(--color-text-heading);
+    line-height: var(--heading-line-height);
+    margin-bottom: var(--space-md);
+}
+
+.text-xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h1, 
+.text-xxl {
+  font-size: var(--text-xxl);
+}
+
+h2, 
+.text-xl {
+  font-size: var(--text-xl);
+}
+
+h3, 
+.text-lg {
+  font-size: var(--text-lg);
+}
+
+h4, 
+.text-md {
+  font-size: var(--text-md);
+}
+
+.text--sm, 
+small {
+    font-size: var(--text-sm);
+}
+
+.text--xs {
+    font-size: var(--text-xs);
+}
+
+p {
+    line-height: var(--body-line-height);
+    margin-bottom: var(--space-md);
+} */
+
+/* a {
+    color: var(--color-link);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+} */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/* utility classes */
+.truncate {
+    /* truncate text if it exceeds parent */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
