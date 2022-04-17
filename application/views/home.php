@@ -21,6 +21,7 @@
     <img src="img/logo_spf_horizontal.png" alt="" class="logo-spf">
     <div class="perfil-box">
       <h1>Evaluaciones de certificación</h1>
+      <h1>Julio César</h1>
       <span>Seleccionar perfil:</span>
       <ul>
         <li><a href="index.php/CandidatoController"><svg width="88" height="88" viewBox="0 0 88 88" fill="none"
