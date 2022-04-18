@@ -21,7 +21,6 @@
     <img src="img/logo_spf_horizontal.png" alt="" class="logo-spf">
     <div class="perfil-box">
       <h1>Evaluaciones de certificación</h1>
-      <h1>Sally rex</h1>
       <span>Seleccionar perfil:</span>
       <ul>
         <li><a href="index.php/CandidatoController"><svg width="88" height="88" viewBox="0 0 88 88" fill="none"
@@ -32,7 +31,7 @@
                 fill="#F3F4F6" />
             </svg>
             <br>Candidato</a></li>
-        <li><a href="login_evaluador.html"><svg width="88" height="88" viewBox="0 0 88 88" fill="none"
+        <li><a href="index.php/EvaluadorController"><svg width="88" height="88" viewBox="0 0 88 88" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <circle cx="44" cy="44" r="43.5" fill="#8B91A4" stroke="#E8E9ED" />
               <g clip-path="url(#clip0_91_9217)">
