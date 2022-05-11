@@ -21,5 +21,9 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('home');
+		$this->load->model('log_model');
+		$logs = $this->log_model->getAll();
+		//var_dump($logs);
+
 	}
 }
